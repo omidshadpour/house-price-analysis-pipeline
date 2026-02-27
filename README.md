@@ -23,26 +23,47 @@ The entire workflow is modular, scalable, and follows industry-standard practice
 
 house_price_project/
 │
+
 ├── data/
+
 │   ├── raw/
+
 │   │   ├── train.csv
+
 │   │   └── test.csv
+
 │
+
 ├── models/
+
 │   └── best_model.pkl
+
 │
+
 ├── reports/
+
 │   └── figures/
+
 │       └── feature_importance_top20.png
+
 │
+
 ├── src/
+
 │   ├── data_preprocessing.py
+
 │   ├── feature_engineering.py
+
 │   ├── train_models.py
+
 │   └── feature_importance.py
+
 │
+
 ├── main.py
+
 └── README.md
+
 
 
 ---
